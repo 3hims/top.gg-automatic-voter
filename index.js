@@ -113,7 +113,7 @@ const fs = require('fs');
 
                                     await page.waitForSelector(".menu.container", {timeout: 70000})
                                     console.log('Going to probot vote page')
-                                        await page.goto("https://top.gg/bot/probot/vote", {
+                                        await page.goto("https://top.gg/bot/408785106942164992/vote", {
                                             timeout: 0
                                         });
                                     let adBTN = await page.$(`.css-122cpje`); // if old ads
